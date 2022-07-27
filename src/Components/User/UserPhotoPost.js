@@ -52,7 +52,7 @@ export const UserPhotoPost = () => {
         <Error error={error} />
       </form>
       <div>
-        {img.preview && <div className={styles.preview} style={{ backgroundImage: `url("${img.preview}")` }}></div>}
+        {img.preview && <div className={styles.previews} style={{ backgroundImage: `url("${img.preview}")` }}></div>}
       </div>
     </section>
   );

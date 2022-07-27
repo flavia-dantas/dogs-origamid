@@ -9,13 +9,13 @@
   margin-bottom: 1rem;
 }
 
-.preview {
+.previews {
   border-radius: 1rem;
   background-size: cover;
   background-position: center center;
 }
 
-.preview::after {
+.previews::after {
   content: "";
   display: block;
   height: 0px;
