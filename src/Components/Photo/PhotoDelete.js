@@ -6,15 +6,18 @@ export const PhotoDelete = ({ id }) => {
   const { loading, request } = useFetch();
 
   async function handleClick() {
-    const { url, options } = PHOTO_DELETE(id);
-    const { response } = await request(url, options);
-    if (response.ok) window.location.reload();
+    const confirm = window.confirm("Tem certeza que deseja deletar?");
+    if (confirm) {
+      const { url, options } = PHOTO_DELETE(id);
+      const { response } = await request(url, options);
+      if (response.ok) window.location.reload();
+    }
   }
 
   return (
     <>
-      {loading ? <button disabled style={styles.delete}>Delete</button> :
-        <button onClick={handleClick} style={styles.delete}>Delete</button>}
+      {loading ? <button disabled className={styles.delete}>Delete</button> :
+        <button onClick={handleClick} className={styles.delete}>Delete</button>}
 
     </>
   );
