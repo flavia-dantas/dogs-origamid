@@ -5,7 +5,7 @@ import { useFetch } from "../../Hooks/useFetch";
 import { Error } from "../Helper/Error";
 import styles from "./PhotoCommentsForm.module.css";
 
-export const PhotoCommentsForm = ({ id, setCommnents }) => {
+export const PhotoCommentsForm = ({ id, setComments }) => {
   const [comment, setComment] = useState("");
   const { request, error } = useFetch();
 
@@ -14,8 +14,8 @@ export const PhotoCommentsForm = ({ id, setCommnents }) => {
     const { url, options } = COMMENT_POST(id, { comment });
     const { response, json } = await request(url, options);
     if (response.ok) {
-      setCommnents("");
-      setCommnents((comments) => [...comments, json]);
+      setComment("");
+      setComments((comments) => [...comments, json]);
     }
   }
 
