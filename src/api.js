@@ -90,9 +90,9 @@ export function COMMENT_POST(id, body) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        Authorization: "Bearer " + window.localStorage.getItem("token"),
       },
       body: JSON.stringify(body),
-      Authorization: "Bearer " + window.localStorage.getItem("token"),
     },
   };
 }
@@ -104,8 +104,8 @@ export function PHOTO_DELETE(id) {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
+        Authorization: "Bearer " + window.localStorage.getItem("token"),
       },
-      Authorization: "Bearer " + window.localStorage.getItem("token"),
     },
   };
 }
