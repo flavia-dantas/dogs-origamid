@@ -21,6 +21,7 @@ export const PhotoComments = (props) => {
             <span>{comment.comment_content}</span>
           </li>))}
       </ul>
+      {login && <PhotoCommentsForm id={props.id} setComments={setComments} />}
     </>
   );
 };
