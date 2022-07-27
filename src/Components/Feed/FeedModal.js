@@ -15,7 +15,7 @@ export const FeedModal = ({ photo }) => {
   }, [photo, request]);
 
   return (
-    <div style={styles.modal}>
+    <div className={styles.modal} onClick={handleOutsideClick}>
       {error && <Error error={error} />}
       {loading && <Loading />}
       {data && <PhotoContent data={data} />}
