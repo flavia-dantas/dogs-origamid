@@ -16,7 +16,7 @@ export const PhotoComments = (props) => {
     <>
       <ul ref={commentSection} className={`${styles.comments}${props.single ? styles.single : ""}`}>
         {comments.map((comment) => (
-          <li key={comment.commnent_ID}>
+          <li key={comment.comment_ID}>
             <b>{comment.comment_author}:</b>
             <span>{comment.comment_content}</span>
           </li>))}
