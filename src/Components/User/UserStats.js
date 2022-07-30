@@ -1,5 +1,10 @@
+import { Head } from "../Helper/Head";
+
 export const UserStats = () => {
   return (
-    <div>Estatísticas</div>
+    <div>
+      <Head title="Estatísticas" />
+      Estatísticas
+    </div>
   );
 };
