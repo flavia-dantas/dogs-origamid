@@ -5,12 +5,12 @@
 }
 
 body {
+  padding-top: 4rem;
   margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
-  --type-second: "Spectral", georgia;
+  --type-second: 'Spectral', Georgia;
   font-family: var(--type-first);
-  padding: 4rem;
 }
 
 h1,
@@ -49,6 +49,7 @@ a {
 .container {
   max-width: 50rem;
   padding: 0 1rem;
+  margin: 0 auto;
 }
 
 .mainContainer {
@@ -65,7 +66,7 @@ a {
 }
 
 .title::after {
-  content: "";
+  content: '';
   display: block;
   width: 1.5rem;
   height: 1.5rem;
@@ -88,4 +89,18 @@ a {
     opacity: 1;
     transform: initial;
   }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+  flex: 1;
+}
+
+.VictoryContainer {
+  height: initial !important;
 }
