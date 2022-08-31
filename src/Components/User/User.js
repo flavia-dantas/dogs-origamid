@@ -2,7 +2,7 @@ import { UserHeader } from "./UserHeader";
 import { Route, Routes } from "react-router-dom";
 import { Feed } from "../Feed/Feed";
 import { UserPhotoPost } from "./UserPhotoPost";
-import { UserStats } from "./UserStats";
+import UserStats from "./UserStats";
 import { useContext } from "react";
 import { UserContext } from "../../UserContext";
 import { NotFound } from "../NotFound";
