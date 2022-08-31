@@ -6,7 +6,7 @@ import { Loading } from "../Helper/Loading";
 import { Error } from "../Helper/Error";
 const UserStatsGraphs = lazy(() => import("./UserStatsGraphs"));
 
-export const UserStats = () => {
+const UserStats = () => {
 
   const { data, error, loading, request } = useFetch();
 
@@ -30,4 +30,4 @@ export const UserStats = () => {
   else return null;
 
 };
-
+export default UserStats;
