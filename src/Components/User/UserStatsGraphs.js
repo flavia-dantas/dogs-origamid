@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./UserStatsGraphs.module.css";
 import { VictoryBar, VictoryChart, VictoryPie, } from "victory";
 
-export const UserStatsGraphs = ({ data }) => {
+const UserStatsGraphs = ({ data }) => {
   const [graph, setGraph] = useState([]);
   const [total, setTotal] = useState(0);
 
@@ -42,3 +42,4 @@ export const UserStatsGraphs = ({ data }) => {
   );
 };
 
+export default UserStatsGraphs;
