@@ -1,4 +1,4 @@
-<img src="../dogs-origamid/src/Assets/Dogs-readme.jpg">
+<img src="./src/Assets/Dogs-readme.jpg">
 
 #
 ## Sobre
@@ -26,7 +26,7 @@ O usuário poderá:
 #
 
 ##  Preview da aplicação
-<img src="../dogs-origamid/src/Assets/dogs-gif.gif">
+<img src="./src/Assets/dogs-gif.gif">
 
 #
 ## Como utilizar
