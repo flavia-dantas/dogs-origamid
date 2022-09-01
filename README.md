@@ -7,7 +7,7 @@ Dogs é uma rede social para cachorro, em que o usuário poderá postar a foto d
 Para acessar [clique aqui](https://dogs-origamid-project.vercel.app/)
 #
 ## Funcionalidades
--O usuário poderá:
+O usuário poderá:
 
 -Fazer login;
 
