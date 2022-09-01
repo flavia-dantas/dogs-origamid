@@ -29,7 +29,7 @@ O usuário poderá:
 <img src="./src/Assets/dogs-gif.gif">
 
 #
-## Como utilizar
+## Rodando o projeto
 
     # Clone esse repositório
     $ git clone https://github.com/flavia-dantas/dogs-origamid.git
