@@ -1,4 +1,4 @@
-<img src="../dogs-origamid/src/Assets/Dogs-readme.jpg">
+<img src="./src/Assets/Dogs-readme.jpg">
 
 #
 ## Sobre
@@ -7,7 +7,7 @@ Dogs é uma rede social para cachorro, em que o usuário poderá postar a foto d
 Para acessar [clique aqui](https://dogs-origamid-project.vercel.app/)
 #
 ## Funcionalidades
--O usuário poderá:
+O usuário poderá:
 
 -Fazer login;
 
@@ -26,16 +26,19 @@ Para acessar [clique aqui](https://dogs-origamid-project.vercel.app/)
 #
 
 ##  Preview da aplicação
-<img src="../dogs-origamid/src/Assets/dogs-gif.gif">
+<img src="./src/Assets/dogs-gif.gif">
 
 #
 ## Como utilizar
 
-    Clone esse repositório
-    $ git clone https://github.com/rafaasimi/Dogs-Origamid.git
+    # Clone esse repositório
+    $ git clone https://github.com/flavia-dantas/dogs-origamid.git
 
-    Instalar dependências
+    # Entre no diretório
+    $ cd dogs-origamid
+
+    # Instalar dependências
     $ npm install
 
-    Inicie o projeto
+    # Inicie o projeto
     $ npm start
